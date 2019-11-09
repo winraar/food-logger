@@ -4,7 +4,7 @@ import './dog.css';
 const Dog = (props) => {
     return (
         <div className = "Dog">
-            {props.dogName}
+            <h1>{props.dogName}</h1>
         </div>
     );
 }

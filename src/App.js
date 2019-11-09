@@ -11,7 +11,7 @@ function App() {
           <Clock
             format={"dddd, MMMM Do YYYY, h:mm:ss a"}
             ticking={true}
-            timezone={'Eastern'}
+            timezone={'America/New_York'}
           />
         </div>
         <div className="Profile">

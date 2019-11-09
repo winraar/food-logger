@@ -8,11 +8,14 @@ const types = [
 
 const Meal = () => {
     return (
-        <ul>
+        <div>
             {types.map(function(type, index){
-                    return <li key={ index }>{type}</li>;
-                  })}
-        </ul>
+                return <div key={ index }>
+                    <input type="checkbox" id="meal" name="meal" />
+                    <label htmlFor="meal">{type}</label>
+                </div>;
+            })}
+        </div>
     );
 }
 
